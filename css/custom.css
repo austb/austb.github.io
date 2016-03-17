@@ -1,4 +1,8 @@
 
+body {
+  font-weight: 200;
+}
+
 .site-header, .site-header .navbar {
   border: 0px;
   margin: 0px;
@@ -8,20 +12,41 @@
   margin: 0px;
   width: 100%;
   background-color: #2A56B7;
+  color: #F2F2F2;
 }
 
 .container.blue-color-container .row {
-  margin: 30px 0px 30px 45px;
+  margin: 30px 0px 30px 0px;
 }
 
-.container.blue-color-container .media-left {
-  padding-right: 40px;
+@media(min-width:768px) {
+  .vertical-align-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .vertical-align-content {
+    align-self: center;
+  }
+
+  .container.blue-color-container .row {
+    margin: 30px 0px 30px 45px;
+  }
 }
 
 .profile-photo-circle {
+  display: table-caption;
+  margin: 10px auto;
   max-width: inherit;
-  width: 400px;
-  margin-bottom: 20px;
+  width: 100%;
+}
+
+@media(max-width:767px) {
+  .profile-photo-circle {
+    max-height: 200px;
+    width: auto;
+    text-align: center;
+  }
 }
 
 .site-footer {
