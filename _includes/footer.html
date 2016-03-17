@@ -1,38 +1,30 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="navbar navbar-default">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/portfolio/">Portfolio</a></li>
+        <li><a href="/resume/">Resume</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li>{{ site.email }}</li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
+      <ul class="nav navbar-nav navbar-right">
+        {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
           </li>
-          {% endif %}
+        {% endif %}
 
-          {% if site.twitter_username %}
+        {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+        {% endif %}
+      </ul>
     </div>
-
   </div>
 
 </footer>
