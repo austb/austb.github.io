@@ -3,6 +3,12 @@ body {
   font-weight: 200;
 }
 
+.fill-parent {
+  position: relative;
+  height: auto;
+  min-height: 100% !important;
+}
+
 .site-header, .site-header .navbar {
   border: 0px;
   margin: 0px;
