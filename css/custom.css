@@ -30,6 +30,10 @@ body {
 }
 
 @media(min-width:768px) {
+  body {
+    padding-bottom: 80px; /* For bottom bar */
+  }
+
   .vertical-align-wrapper {
     display: flex;
     justify-content: center;
@@ -52,6 +56,10 @@ body {
 }
 
 @media(max-width:767px) {
+  body {
+    padding-bottom: 325px; /* For bottom bar */
+  }
+
   .profile-photo-circle {
     max-height: 200px;
     width: auto;

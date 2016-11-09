@@ -199,6 +199,11 @@
 /**
  * Posts
  */
+.post {
+  margin-left: $spacing-unit;
+  margin-right: $spacing-unit;
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
