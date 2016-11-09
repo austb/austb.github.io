@@ -3,10 +3,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  font-weight: 200;
-}
-
 .fill-parent {
   position: relative;
   height: auto;
