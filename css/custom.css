@@ -53,6 +53,10 @@ html {
   margin: 30px 0px 30px 0px;
 }
 
+.post {
+  font-weight: 400;
+}
+
 @media(min-width:768px) {
   body {
     padding-bottom: 80px; /* For bottom bar */
@@ -63,7 +67,6 @@ html {
     padding: 15px;
     margin: auto;
     max-width: 768px;
-    font-weight: 400;
   }
 
   .vertical-align-wrapper {
