@@ -22,6 +22,23 @@ html {
   color: inherit;
 }
 
+.blog-list-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #CCC;
+}
+
+.blog-list-preview {
+  font-weight: 400;
+}
+
+.blog-list-item .img-thumbnail {
+  margin-bottom: 10px;
+}
+
+.post-link, .post-link:hover, .post-link:visited {
+  color: inherit;
+}
+
 .center {
   margin: auto;
 }
@@ -170,5 +187,9 @@ html {
 .resume-btn, .resume-btn:visited {
   color: inherit;
   width: 100%;
+}
+
+.limit-width {
+  max-width: 600px;
 }
 
