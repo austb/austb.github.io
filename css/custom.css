@@ -4,7 +4,7 @@ html {
   letter-spacing: 1px;
 }
 
-.home-title-text {
+.title-text {
   font-weight: 200;
   margin: 25px 0px;
 }
@@ -165,5 +165,10 @@ html {
 
     /* Use white text inside the image */
     color: white;
+}
+
+.resume-btn, .resume-btn:visited {
+  color: inherit;
+  width: 100%;
 }
 

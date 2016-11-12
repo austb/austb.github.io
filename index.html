@@ -29,7 +29,7 @@ layout: default
 
 <div class="container">
   <div class="row text-center"> 
-    <h1 class="home-title-text">Latest Blog Posts</h1>
+    <h1 class="title-text">Latest Blog Posts</h1>
     {% for post in site.posts limit:3 %}
     <div class="col-sm-4 blog-thumbnail">
       <a href="{{ post.url | prepend: site.baseurl }}" class="recent-blog-link">
