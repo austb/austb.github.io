@@ -1,6 +1,7 @@
 html {
   height: 100%;
   min-height: 100%;
+  letter-spacing: 1px;
 }
 
 .fill-parent {
@@ -12,6 +13,11 @@ html {
 .site-header, .site-header .navbar {
   border: 0px;
   margin: 0px;
+}
+
+.personal-statement {
+  max-width: 512px;
+  margin: auto;
 }
 
 .container.blue-color-container {
@@ -93,5 +99,22 @@ html {
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/oa_kayak_2016.jpg");
+
+    /* Set a specific height */
+    min-height: 450px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Use white text inside the image */
+    color: white;
 }
 
