@@ -2,9 +2,10 @@
 layout: post
 title:  "President Trump..."
 date:   2016-11-08 22:36:30 -0800
+image:    /images/im-with-her.jpg
 categories: politics president trump
 ---
-![Even now, I'm with her.](http://i2.kym-cdn.com/entries/icons/original/000/020/669/ChlZGdOW0AAFhUD.jpg){:class="img-responsive"}
+![Even now, I'm with her.](/images/im-with-her.jpg){:class="img-responsive center"}
 
 At this point, it seems certain. Donald Trump will be the next President of
 the United States. A mere 8 hours ago, this seemed unimaginable. The polls

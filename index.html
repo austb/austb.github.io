@@ -27,3 +27,18 @@ layout: default
   </div>
 </div>
 
+<div class="container">
+  <div class="row text-center"> 
+    <h1 class="home-title-text">Latest Blog Posts</h1>
+    {% for post in site.posts limit:3 %}
+    <div class="col-sm-4 blog-thumbnail">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="recent-blog-link">
+        <img src="{{ post.image }}" alt="64x64">
+        <div class="blog-caption-title"><h4>{{ post.title }}</h4></div>
+        <div class="blog-caption-date"><h5>{{ post.date | date: "%b %-d, %Y" }}</h5></div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
