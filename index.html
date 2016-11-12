@@ -17,8 +17,8 @@ layout: default
 </div>
 
 <div class="parallax">
-  <div class="container vertical-align-wrapper" style="min-height: 450px;">
-    <div class="row text-center vertical-align-content">
+  <div class="container always-vertical-align-wrapper" style="min-height: 450px;">
+    <div class="row text-center always-vertical-align-content">
       <h1>Orientation Adventure</h1>
       <p>As a rising Junior in August of 2016, I led a Orientation Adventure trip for First Year students at Pomona College. Six leaders took 39 students
       on a 4 day outdoor trip on Santa Cruz Island. Two days were spent kayaking, the other two wer spent hiking, swimming, and doing volunteer
@@ -33,7 +33,7 @@ layout: default
     {% for post in site.posts limit:3 %}
     <div class="col-sm-4 blog-thumbnail">
       <a href="{{ post.url | prepend: site.baseurl }}" class="recent-blog-link">
-        <img src="{{ post.image }}" alt="64x64">
+        <img src="{{ post.image }}" alt="64x64" class="recent-blog-img">
         <div class="blog-caption-title"><h4>{{ post.title }}</h4></div>
         <div class="blog-caption-date"><h5>{{ post.date | date: "%b %-d, %Y" }}</h5></div>
       </a>

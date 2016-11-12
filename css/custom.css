@@ -57,6 +57,14 @@ html {
   font-weight: 400;
 }
 
+.always-vertical-align-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.always-vertical-align-content {
+  align-self: center;
+}
 @media(min-width:768px) {
   body {
     padding-bottom: 80px; /* For bottom bar */
@@ -99,6 +107,14 @@ html {
     max-height: 200px;
     width: auto;
     text-align: center;
+  }
+
+  .recent-blog-img {
+    max-height: 220px;
+  }
+
+  .parallax div.container .row {
+    margin: 0px 20px;
   }
 }
 
