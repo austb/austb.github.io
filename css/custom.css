@@ -100,7 +100,7 @@ html {
 
 @media(max-width:767px) {
   body {
-    padding-bottom: 205px; /* For bottom bar */
+    padding-bottom: 245px; /* For bottom bar */
   }
 
   .profile-photo-circle {
