@@ -63,6 +63,7 @@ html {
     padding: 15px;
     margin: auto;
     max-width: 768px;
+    font-weight: 400;
   }
 
   .vertical-align-wrapper {
